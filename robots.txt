@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vinado.de/sitemap.xml
+Sitemap: https://jkliemann.de/sitemap.xml
