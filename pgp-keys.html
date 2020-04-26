@@ -25,8 +25,11 @@
     <main>
         <div class="container">
             <header class="d-md-flex align-items-center">
-                <img src="favicon.png" alt="{{name}}">
-                <h1>{{name}}</h1>
+                <picture>
+                    <source srcset="favicon.png" type="image/png"/>
+                    <img src="favicon.png" alt="{{name}}" aria-labelledby="title"/>
+                </picture>
+                <h1 id="title">{{name}}</h1>
             </header>
             <section>
                 <h2>PGP Keys</h2>

@@ -26,8 +26,11 @@
     <main>
         <div class="container">
             <header class="d-md-flex align-items-center">
-                <img src="favicon.png" alt="{{name}}">
-                <h1>{{name}}</h1>
+                <picture>
+                    <source srcset="favicon.png" type="image/png"/>
+                    <img src="favicon.png" alt="{{name}}" aria-labelledby="title"/>
+                </picture>
+                <h1 id="title">{{name}}</h1>
             </header>
             <div class="row">
                 <section class="col-sm-4">
@@ -36,8 +39,8 @@
                         <li><i class="fa fa-github"></i> <a href="https://github.com/jklmnn">GitHub</a></li>
                         <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/JK70523">Twitter</a></li>
                     </ul>
-                </article>
-                <article class="col-sm-4">
+                </section>
+                <section class="col-sm-4">
                     <h2>I'm working on</h2>
                     <ul>
                         <li><i class="fa fa-code"></i> <a href="https://componolit.com">Systems @ Componolit</a></li>
